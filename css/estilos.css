@@ -1,11 +1,11 @@
-body{
+body {
   color: #6d6e70;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 60px;
 }
 
-main{
+main {
   box-shadow: 0 5px 12px rgba(0,0,0,.3);
   display: block;
   margin: 0 auto;
@@ -13,16 +13,19 @@ main{
   width: 900px;
 }
 
-header,section,footer
-{
+header,
+section,
+footer {
   display: block;
   position: relative;
 }
-footer{
+
+footer {
   background-color: #00adee;
   color: #ffffff ;
   height: 33px;
 }
+
 footer p:first-child {
   background-color: #404041;
   font-size: 14px;
@@ -72,27 +75,44 @@ footer div img {
   transition: all 0s ease;
 }
 
-#fb {transform: translate(0, 0);}
-#fb:hover {transform: translate(0,-33px);}
+#fb {
+  transform: translate(0, 0);
+}
 
-#yt {transform: translate(-50px, 0);}
-#yt:hover {transform: translate(-50px,-33px);}
+#fb:hover {
+  transform: translate(0,-33px);
+}
 
-#twt{transform: translate(-100px, 0)}
-#twt:hover {transform: translate(-100px,-33px);}
+#yt {
+  transform: translate(-50px, 0);
+}
+
+#yt:hover {
+  transform: translate(-50px,-33px);
+}
+
+#twt {
+  transform: translate(-100px, 0);
+}
+
+#twt:hover {
+  transform: translate(-100px,-33px);
+}
 
 
-header nav{
+header nav {
   background-color: #00adee;
   display: block;
   height: 50px;
   position: relative;
 }
-header #foto{
+
+header #foto {
   background-image: url(../imagenes/fondo-portada.jpg);
   height: 280px;
 }
-header aside{
+
+header aside {
   background-color: #ffffff;
   bottom: 0;
   bottom: 0;
@@ -101,12 +121,14 @@ header aside{
   top: 0;
   width: 224px;
 }
+
 header nav > a,
-header nav div{
+header nav div {
   display: inline-block;
   position: relative;
   vertical-align: middle;
 }
+
 header nav > a {
   background-color: #ffffff;
   background-image: url(../imagenes/logo.png);
@@ -118,17 +140,20 @@ header nav > a {
   text-indent: -9999px;
   width: 196px;
 }
-header nav div a{
+
+header nav div a {
   color: #fff;
   margin-right: 8px;
   padding: 10px;
   text-decoration: none;
 }
-header nav div a:hover{
+
+header nav div a:hover {
   background-color: #fff;
   color: #404041;
 }
-header #foto span{
+
+header #foto span {
   background-color: rgba(64,64,65,.6);
   bottom: 0;
   color: #fff;
@@ -138,7 +163,6 @@ header #foto span{
   padding: 15px 0 15px 120px;
   position: absolute;
   right: 0;
-
 }
 
 header aside div a {
@@ -298,7 +322,7 @@ section {
   margin: 0px 0px 25px;
 }
 
-.columnaf2 div p{
+.columnaf2 div p {
   background-color: #00adee;
   color: #fff;
   display: block;
